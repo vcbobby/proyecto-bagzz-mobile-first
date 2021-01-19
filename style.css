@@ -59,14 +59,37 @@ main {
     margin-top: 3px;
 }
 
+.container--slider {
+    display: flex;
+    height: 210px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
 main .main--1st-section .picture {
     position: relative;
+    scroll-snap-align: center;
     width: 95%;
     min-width: 280px;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0 10px;
     height: 200px;
     background-image: url('./assets/imgs/home-picture.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main .main--1st-section .picture2 {
+    position: relative;
+    scroll-snap-align: center;
+    width: 95%;
+    min-width: 280px;
+    max-width: 900px;
+    margin: 0 10px;
+    height: 200px;
+    background-image: url('./assets/imgs/home2.svg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
