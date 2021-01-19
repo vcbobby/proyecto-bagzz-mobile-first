@@ -59,7 +59,7 @@ main {
     margin-top: 3px;
 }
 
-.container--slider {
+main .container--slider {
     display: flex;
     height: 210px;
     overflow-x: scroll;
@@ -379,6 +379,7 @@ footer {
     min-width: 280px;
     max-width: 900px;
     margin: 0 auto;
+    
 }
 
 .footer--section {
@@ -393,6 +394,7 @@ footer {
     border-radius: 100px;
     border: 2px solid var(--soft-gray);
     box-shadow: 1px 1px 1px 1px aquamarine;
+    background: linear-gradient(207.8deg, #484e4e 16.69%, #1ae8f7 100%);
 }
 
 .home {

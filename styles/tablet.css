@@ -1,0 +1,19 @@
+header .container .header--profile-button {
+    margin-left: 180px;
+}
+
+main .container--slider {
+    height: 410px;
+}
+
+main .main--1st-section .picture {
+    width: 90%;
+    margin: 0 20px;
+    height: 400px;
+}
+
+main .main--1st-section .picture2 {
+    width: 90%;
+    margin: 0 20px;
+    height: 400px;
+}
