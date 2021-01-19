@@ -21,19 +21,20 @@ main {
     max-width: 900px;
     height: auto;
     margin: 0 auto;
+    font-size: 1.45rem;
 }
 
 main .main--1st-section .picture {
-    position: absolute;
+    position: relative;
     width: 95%;
     min-width: 280px;
     max-width: 900px;
-    z-index: 1;
     margin: 0 auto;
-    justify-content: center;
-    justify-self: center;
-    justify-items: center;
-    margin-left: 7px;
+    height: 200px;
+    background-image: url('./assets/imgs/home-picture.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 main .main--text-arrows {
@@ -48,21 +49,22 @@ main .main--text-arrows {
 }
 
 main .text {
+    position: absolute;
     z-index: 2;
     text-align: left;
-    margin-top: 50px;
-    font-size: 1.45rem;
+    margin-top: -200px;
     font-weight: bold;
     margin-right: 15px;
     margin-bottom: 15px;
 }
 
 main .arrows {
+    position: absolute;
+    margin-top: -40px;
     z-index: 3;
     align-self: flex-end;
     margin-right: 10px;
     position: relative;
-
 }
 
 .h21 {
@@ -81,4 +83,88 @@ main .arrows {
     background-color: var(--white);
     padding-right: 5px;
     width: 70px;
+}
+
+.main--shop-store {
+    display: flex;
+    width: 97%;
+    min-width: 280px;
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 300px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.main--article-bag {
+    margin: 0 auto;
+    background-color: var(--soft-gray);
+    width: 150px;
+    height: 210px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.main--article-bag .heart-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url('./assets/icons/heart-icon.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.main--shop-store .main--article-bag .artsy {
+    position: absolute;
+    width: 111px;
+    height: 111px;
+    background-image: url('./assets/imgs/artsy-bag.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+.main--shop-store h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+    margin-top: 120px;
+    margin-bottom: 10px;
+}
+
+.main--shop-store .main--article-bag .berkely {
+    position: absolute;
+    width: 111px;
+    height: 111px;
+    background-image: url('./assets/imgs/berkely-bag.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+.main--shop-store .main--article-bag .capucinus {
+    position: absolute;
+    width: 111px;
+    height: 111px;
+    background-image: url('./assets/imgs/capucinus.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+.main--shop-store .main--article-bag .monogram {
+    position: absolute;
+    width: 111px;
+    height: 111px;
+    background-image: url('./assets/imgs/monogram-bag.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: -50px;
 }
