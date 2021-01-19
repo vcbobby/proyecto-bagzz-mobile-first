@@ -50,3 +50,303 @@ header .container .header--profile-button {
     bottom: 3px;
 }
 
+main {
+    width: 100%;
+    min-width: 320px;
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+main .main--1st-section .picture {
+    position: relative;
+    width: 95%;
+    min-width: 280px;
+    max-width: 900px;
+    margin: 0 auto;
+    height: 200px;
+    background-image: url('./assets/imgs/home-picture.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main .main--text-arrows {
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    margin-right: 8px;
+    line-height: 2.3rem;
+}
+
+main .text {
+    position: absolute;
+    z-index: 2;
+    text-align: left;
+    margin-top: -200px;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    font-size: 1.45rem;
+}
+
+main .arrows {
+    position: absolute;
+    margin-top: -40px;
+    z-index: 3;
+    align-self: flex-end;
+    margin-right: 10px;
+    position: relative;
+}
+
+.h21 {
+    background-color: var(--white);
+    padding-right: 5px;
+    width: 60px;
+}
+
+.h22 {
+    background-color: var(--white);
+    padding-right: 5px;
+    width: 100px;
+}
+
+.h23 {
+    background-color: var(--white);
+    padding-right: 5px;
+    width: 70px;
+}
+
+.main--shop-store {
+    display: flex;
+    width: 97%;
+    min-width: 280px;
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 100px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.main--article-bag {
+    margin: 0 auto;
+    background-color: var(--soft-gray);
+    width: 150px;
+    height: 210px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.main--article-bag .heart-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url('./assets/icons/heart-icon.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.main--shop-store .main--article-bag .artsy {
+    position: absolute;
+    width: 111px;
+    height: 111px;
+    background-image: url('./assets/imgs/artsy-bag.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+.main--shop-store h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+    margin-top: 120px;
+    margin-bottom: 10px;
+}
+
+.main--shop-store .main--article-bag .berkely {
+    position: absolute;
+    width: 111px;
+    height: 111px;
+    background-image: url('./assets/imgs/berkely-bag.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+.main--shop-store .main--article-bag .capucinus {
+    position: absolute;
+    width: 111px;
+    height: 111px;
+    background-image: url('./assets/imgs/capucinus.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+.main--shop-store .main--article-bag .monogram {
+    position: absolute;
+    width: 111px;
+    height: 111px;
+    background-image: url('./assets/imgs/monogram-bag.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+.check--box {
+    border-style: solid;
+    border-width: 1px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.check--box p {
+    padding: 0 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    text-align: center;
+}
+
+.section-categories {
+    font-weight: bold;
+    width: 100%;
+    min-height: 100px;
+    min-width: 280px;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.section-categories h2 {
+    display: block;
+    width: 213px;
+    font-size: 2.4rem;
+    height: 30px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.main--categories {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    min-width: 280px;
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 100px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.main--categories-bags {
+    position: relative;
+    margin: 0 auto;
+    width: 150px;
+    height: 224px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.main--categories-bags p {
+    position: absolute;
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: 5px;
+    top: 203px;
+    left: calc(95% - 130px);
+    text-align: left;
+}
+
+.handle-bags {
+    position: absolute;
+    width: 145px;
+    height: 224px;
+    background-image: url('./assets/imgs/handle.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: -75px;
+}
+
+.crossbody-bags {
+    position: absolute;
+    width: 145px;
+    height: 224px;
+    background-image: url('./assets/imgs/crossbody.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: -75px;
+}
+
+.shoulder-bags {
+    position: absolute;
+    width: 145px;
+    height: 224px;
+    background-image: url('./assets/imgs/shoulder.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: -75px;
+}
+
+.tote-bags {
+    position: absolute;
+    width: 145px;
+    height: 224px;
+    background-image: url('./assets/imgs/tote.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: -75px;
+}
+
+.p1 {
+    margin-left: 32px;
+}
+
+.p2 {
+    margin-left: 7px;
+}
+
+.p3 {
+    margin-left: 18px;
+}
+
+.p4 {
+    margin-left: 52px;
+}
+
+.check--box2 {
+    border-style: solid;
+    border-width: 1px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 20PX;
+}
+
+.check--box2 p {
+    padding: 0 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    text-align: center;
+}
