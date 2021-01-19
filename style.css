@@ -297,3 +297,20 @@ main .arrows {
 .p4 {
     margin-left: 52px;
 }
+
+.check--box2 {
+    border-style: solid;
+    border-width: 1px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 20PX;
+}
+
+.check--box2 p {
+    padding: 0 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    text-align: center;
+}
