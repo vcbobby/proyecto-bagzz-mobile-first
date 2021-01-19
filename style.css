@@ -184,3 +184,116 @@ main .arrows {
     line-height: 1.6rem;
     text-align: center;
 }
+
+.section-categories {
+    font-weight: bold;
+    width: 100%;
+    min-height: 100px;
+    min-width: 280px;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.section-categories h2 {
+    display: block;
+    width: 213px;
+    font-size: 2.4rem;
+    height: 30px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.main--categories {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    min-width: 280px;
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 100px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.main--categories-bags {
+    position: relative;
+    margin: 0 auto;
+    width: 150px;
+    height: 224px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.main--categories-bags p {
+    position: absolute;
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: 5px;
+    top: 203px;
+    left: calc(95% - 130px);
+    text-align: left;
+}
+
+.handle-bags {
+    position: absolute;
+    width: 145px;
+    height: 224px;
+    background-image: url('./assets/imgs/handle.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: -75px;
+}
+
+.crossbody-bags {
+    position: absolute;
+    width: 145px;
+    height: 224px;
+    background-image: url('./assets/imgs/crossbody.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: -75px;
+}
+
+.shoulder-bags {
+    position: absolute;
+    width: 145px;
+    height: 224px;
+    background-image: url('./assets/imgs/shoulder.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: -75px;
+}
+
+.tote-bags {
+    position: absolute;
+    width: 145px;
+    height: 224px;
+    background-image: url('./assets/imgs/tote.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: -75px;
+}
+
+.p1 {
+    margin-left: 32px;
+}
+
+.p2 {
+    margin-left: 7px;
+}
+
+.p3 {
+    margin-left: 18px;
+}
+
+.p4 {
+    margin-left: 52px;
+}
